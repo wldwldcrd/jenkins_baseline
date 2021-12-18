@@ -6,6 +6,7 @@ pipeline {
         stage('build') {
             steps {
                 sh 'python --version'
+                echo 'Greetings traveler! I want to invite you to Russia'
             }
         }
     }
